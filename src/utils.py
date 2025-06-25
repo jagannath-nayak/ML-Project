@@ -6,10 +6,9 @@ import dill
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
 from src.exception import CustomException
-from xgboost import XGBRegressor
-from sklearn.base import BaseEstimator, RegressorMixin
+from sklearn.base import BaseEstimator
 
-class SklearnCompatibleXGBRegressor(XGBRegressor, BaseEstimator, RegressorMixin):
+class SklearnCompatibleXGBRegressor(BaseEstimator):
     @staticmethod
     def __sklearn_tags__():
         return {}
