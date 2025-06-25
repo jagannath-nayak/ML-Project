@@ -7,4 +7,11 @@ catboost
 xgboost
 dill
 flask
+streamlit
+pdfkit
+fpdf
+joblib
+streamlit-lottie
+google-generativeai 
+python-dotenv
 #-e .
