@@ -10,8 +10,8 @@ genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Page setup
-st.set_page_config(page_title="🧠 Ask Gemini", layout="centered")
-st.title("🧠 Ask Gemini – Your Learning Assistant")
+st.set_page_config(page_title="🧠 Ask Student Assistant.AI", layout="centered")
+st.title("🧠 Ask Student Assistant.AI – Your Learning Assistant")
 
 st.markdown("Ask anything about student learning, performance, or model behavior. Powered by Google Gemini.")
 
